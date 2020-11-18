@@ -1,0 +1,74 @@
+.result, .bars {
+    border-radius: .28571429rem;;
+    border: 1px solid gray;
+    box-shadow: 0.5rem .5rem 1rem rgba(0, 0, 0, .15) !important;
+    margin-bottom: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.graph-info {
+    display: flex;
+    justify-content: center;
+}
+
+.graph-info > p {
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.bars {
+    padding-top: 50px;
+}
+
+.bar:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    border: 1px solid #8c99aa;
+    border-radius: 5px;
+    display: block;
+}
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+    content: '\25BC';
+    position: absolute;
+    text-align: center;
+}
+
+.d3-tip.n:after {
+    margin: -2px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+rect.bar {
+    stroke-width: 0.2;
+    stroke: black;
+}
+
+
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 3;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}

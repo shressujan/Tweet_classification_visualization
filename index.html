@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization</title>
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="js/d3-tip.js"></script>
+</head>
+<body>
+<div class="row justify-content-center result wrapper">
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <h2 class="text-center">Model Comparisons</h2>
+            <div class="graph-info">
+                <ul>
+                    <p>
+                        This graph shows the accuracy, precision, recall, area under the curve comparison for
+                        3 machine learning models.
+                    </p>
+                </ul>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <div>
+                <svg class="text-center" id="result"></svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center result wrapper">
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <h2 class="text-center">Naive Bayes Classifier</h2>
+            <div class="graph-info">
+                <ul>
+                    <p>
+                        This graph shows the accuracies for all the feature sets.
+                    </p>
+                </ul>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <div>
+                <svg class="text-center" id="nbc"></svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center result wrapper">
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <h2 class="text-center">Linear Support Vector Machine</h2>
+            <div class="graph-info">
+                <ul>
+                    <p>
+                        This graph shows the accuracies for all the feature sets.
+                    </p>
+                </ul>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <div>
+                <svg class="text-center" id="svm"></svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center result wrapper">
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <h2 class="text-center">Logistic Regression</h2>
+            <div class="graph-info">
+                <ul>
+                    <p>
+                        This graph shows the accuracies for all the feature sets.
+                    </p>
+                </ul>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <div>
+                <svg class="text-center" id="lg"></svg>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
