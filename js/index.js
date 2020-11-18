@@ -28,21 +28,21 @@ Object.entries(nbc_full).forEach(entry => nbc_data.push({'feature': entry[0], 'v
 
 
 svm_full = {
-    'uni_X_train_lemma': 0.863,
-    'uni_X_train_stemm': 0.866,
-    'uni_X_train_lemma_stemm': 0.867,
-    'bi_X_train_lemma': 0.889,
-    'bi_X_train_stemm': 0.898,
-    'bi_X_train_lemma_stemm': 0.867,
-    'tfidf_X_train_lemma': 0.868,
-    'tfidf_X_train_stemm': 0.865,
-    'tfidf_X_train_lemma_stemm': 0.867,
-    'w2v_X_train_lemma': 0.794,
-    'w2v_X_train_stemm': 0.765,
-    'w2v_X_train_lemma_stemm': 0.618,
-    'd2v_X_train_lemma': 0.756,
-    'd2v_X_train_stemm': 0.794,
-    'd2v_X_train_lemma_stemm': 0.755
+    'uni_X_train_lemma': 0.914,
+    'uni_X_train_stemm': 0.914,
+    'uni_X_train_lemma_stemm': 0.916,
+    'bi_X_train_lemma': 0.923,
+    'bi_X_train_stemm': 0.925,
+    'bi_X_train_lemma_stemm': 0.916,
+    'tfidf_X_train_lemma': 0.913,
+    'tfidf_X_train_stemm': 0.908,
+    'tfidf_X_train_lemma_stemm': 0.906,
+    'w2v_X_train_lemma': 0.844,
+    'w2v_X_train_stemm': 0.844,
+    'w2v_X_train_lemma_stemm': 0.595,
+    'd2v_X_train_lemma': 0.796,
+    'd2v_X_train_stemm': 0.769,
+    'd2v_X_train_lemma_stemm': 0.732
 }
 
 svm_data = [];
@@ -50,21 +50,21 @@ Object.entries(svm_full).forEach(entry => svm_data.push({'feature': entry[0], 'v
 
 
 lg_full = {
-    'uni_X_train_lemma': 0.917,
-    'uni_X_train_stemm': 0.908,
-    'uni_X_train_lemma_stemm': 0.910,
-    'bi_X_train_lemma': 0.913,
-    'bi_X_train_stemm': 0.912,
-    'bi_X_train_lemma_stemm': 0.910,
-    'tfidf_X_train_lemma': 0.802,
-    'tfidf_X_train_stemm': 0.804,
-    'tfidf_X_train_lemma_stemm': 0.805,
+    'uni_X_train_lemma': 0.925,
+    'uni_X_train_stemm': 0.921,
+    'uni_X_train_lemma_stemm': 0.923,
+    'bi_X_train_lemma': 0.930,
+    'bi_X_train_stemm': 0.926,
+    'bi_X_train_lemma_stemm': 0.923,
+    'tfidf_X_train_lemma': 0.917,
+    'tfidf_X_train_stemm': 0.917,
+    'tfidf_X_train_lemma_stemm': 0.917,
     'w2v_X_train_lemma': 0.850,
-    'w2v_X_train_stemm': 0.858,
-    'w2v_X_train_lemma_stemm': 0.857,
-    'd2v_X_train_lemma': 0.854,
-    'd2v_X_train_stemm': 0.847,
-    'd2v_X_train_lemma_stemm': 0.849
+    'w2v_X_train_stemm': 0.853,
+    'w2v_X_train_lemma_stemm': 0.861,
+    'd2v_X_train_lemma': 0.841,
+    'd2v_X_train_stemm': 0.850,
+    'd2v_X_train_lemma_stemm': 0.850
 }
 
 lg_data = [];
